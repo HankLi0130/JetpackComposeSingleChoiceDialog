@@ -8,14 +8,14 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import app.hankdev.jc.ui.theme.JetpackComposeSingleChoiseDialogTheme
+import app.hankdev.jc.ui.theme.JetpackComposeSingleChoiceDialogTheme
 
 class MainActivity : ComponentActivity() {
     @ExperimentalMaterial3Api
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            JetpackComposeSingleChoiseDialogTheme {
+            JetpackComposeSingleChoiceDialogTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),

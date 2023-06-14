@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "JetpackComposeSingleChoiseDialog"
+rootProject.name = "JetpackComposeSingleChoiceDialog"
 include ':app'
